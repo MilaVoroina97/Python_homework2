@@ -27,12 +27,11 @@ def number_sum(n):
             n1 = n1 //10
     return sum
 
-
 try:
-    number = input('Please enter a number:')
+    number = input('Пожалуйста, введите число:')
     print(f'Сумма цифр в числе {number} = {number_sum(number)}')
 except:
-    print('Please enter a positive float number with dot {.} or integer number. ')
+    print('Пожалуйста, введите положительное дробное число через точку (.) или любое целое число.')
 
 
 
