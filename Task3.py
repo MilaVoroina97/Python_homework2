@@ -1,9 +1,6 @@
 # Напишите программу, в которой пользователь будет задавать две строки, а программа - определять количество вхождений
 # одной строки в другой.
 
-from re import sub
-
-
 def count_substring(string1,string2):
     len1 = len(string1)
     len2 = len(string2)
