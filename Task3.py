@@ -15,7 +15,7 @@ def count_substring(string1,string2):
     else:
         print('Пожалуйста, обратите внимание, что первая строка должна быть длиннее, чем вторая.')
 
-string = input('Пожалуйста, введите первую строку')
+string = input('Пожалуйста, введите первую строку: ')
 substring = input('Пожалуйста, введите подстроку: ')
 count_substring(string,substring)
 
